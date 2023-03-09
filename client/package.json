@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "1.7.12",
+    "@nuxtjs/fontaine": "^0.2.4",
+    "@nuxtjs/tailwindcss": "6.4.1",
+    "@tailwindcss/typography": "0.5.9",
+    "@types/node": "18.14.6",
+    "@types/qs": "6.9.7",
+    "@vueuse/core": "9.13.0",
+    "@vueuse/nuxt": "9.13.0",
+    "nuxt": "3.2.3",
+    "nuxt-icon": "0.3.2",
+    "prettier": "2.8.4",
+    "prettier-plugin-tailwindcss": "0.2.4",
+    "qs": "6.11.1"
+  }
+}
