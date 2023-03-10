@@ -6,5 +6,9 @@
     <DevOnly><BpViewer /></DevOnly>
 
     <GlobalHeader />
+
+    <main>
+      <HomeHeroSection />
+    </main>
   </div>
 </template>

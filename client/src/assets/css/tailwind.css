@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn {
+    @apply relative inline-flex items-center justify-center rounded px-8 py-3 text-center font-display font-bold uppercase transition-colors duration-100 hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:select-none;
+  }
+
+  .btn-primary {
+    @apply bg-primary-700 text-white hover:bg-primary-600;
+  }
+
+  .btn-secondary {
+    @apply bg-primary-50 text-primary-700 hover:bg-primary-200;
+  }
+}
+
 @layer utilities {
   .default-rings {
     @apply focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2;
