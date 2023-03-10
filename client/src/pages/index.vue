@@ -15,5 +15,7 @@
       <HomeServicesSection />
       <HomeContactSection />
     </main>
+
+    <GlobalFooter />
   </div>
 </template>
