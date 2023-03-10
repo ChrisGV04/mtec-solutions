@@ -33,7 +33,11 @@ const isScrolled = computed(() => {
   >
     <BaseContainer no-y-padding class="flex items-center justify-between py-4 sm:py-6">
       <NuxtLink to="/" class="default-rings rounded focus:ring-offset-gray-900">
-        <img src="/mtec-logo.webp" alt="MTec Logo" class="h-12 sm:h-16" />
+        <img
+          alt="MTec Logo"
+          src="/mtec-logo.webp"
+          :class="['transition-[height] duration-300', isScrolled ? 'h-8 sm:h-10' : 'h-12 sm:h-16']"
+        />
       </NuxtLink>
 
       <nav class="hidden space-x-10 sm:block">
