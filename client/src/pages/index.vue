@@ -9,6 +9,11 @@
 
     <main>
       <HomeHeroSection />
+      <HomeBrandsSection />
+      <HomeAboutSection />
+      <HomeVisionSection />
+      <HomeServicesSection />
+      <HomeContactSection />
     </main>
   </div>
 </template>
