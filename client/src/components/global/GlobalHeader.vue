@@ -23,7 +23,7 @@ const navigation = [
           :to="link.route"
           v-for="link in navigation"
           class="font-display text-lg font-semibold text-white hover:text-opacity-80"
-          >About us</NuxtLink
+          >{{ link.title }}</NuxtLink
         >
       </nav>
 
