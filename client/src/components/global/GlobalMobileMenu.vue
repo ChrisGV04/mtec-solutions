@@ -17,7 +17,7 @@ defineProps({
   <Popover v-slot="{ close }">
     <PopoverButton
       aria-label="Open menu"
-      class="default-rings grid h-8 w-8 place-items-center rounded-md focus:ring-offset-gray-900 md:hidden"
+      class="default-rings grid h-8 w-8 place-items-center rounded-md focus:ring-offset-gray-900"
     >
       <Icon name="heroicons:bars-2-solid" class="h-6 w-6 text-white" />
     </PopoverButton>

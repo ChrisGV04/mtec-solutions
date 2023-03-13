@@ -40,18 +40,20 @@ const isScrolled = computed(() => {
         />
       </NuxtLink>
 
-      <nav class="hidden space-x-10 sm:block">
-        <NuxtLink
-          :to="link.route"
-          v-for="link in navigation"
-          class="default-rings rounded font-display text-lg font-semibold text-white hover:text-opacity-80 focus:ring-offset-gray-900"
-          >{{ link.title }}</NuxtLink
-        >
-      </nav>
+      <div>
+        <nav class="hidden space-x-10 sm:block">
+          <NuxtLink
+            :to="link.route"
+            v-for="link in navigation"
+            class="default-rings rounded font-display text-lg font-semibold text-white hover:text-opacity-80 focus:ring-offset-gray-900"
+            >{{ link.title }}</NuxtLink
+          >
+        </nav>
 
-      <ClientOnly>
-        <GlobalMobileMenu :links="navigation" v-if="isMobile" class="sm:hidden" />
-      </ClientOnly>
+        <ClientOnly>
+          <GlobalMobileMenu :links="navigation" v-if="isMobile" class="sm:hidden" />
+        </ClientOnly>
+      </div>
     </BaseContainer>
   </header>
 </template>
