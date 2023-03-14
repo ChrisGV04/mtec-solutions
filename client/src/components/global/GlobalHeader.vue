@@ -28,7 +28,7 @@ const isScrolled = computed(() => {
     ref="wrapper"
     :class="[
       'fixed inset-x-0 top-0 z-30 transition-all duration-500',
-      isScrolled ? 'bg-gray-900/80 backdrop-blur backdrop-saturate-150 backdrop-filter' : 'bg-transparent',
+      isScrolled ? 'bg-primary-900/80 backdrop-blur backdrop-saturate-150 backdrop-filter' : 'bg-transparent',
     ]"
   >
     <BaseContainer no-y-padding class="flex items-center justify-between py-4 sm:py-6">
