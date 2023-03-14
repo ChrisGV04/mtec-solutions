@@ -13,18 +13,7 @@ const Media: CollectionConfig = {
   upload: {
     staticURL: '/payload-uploads',
     staticDir: '../public/uploads',
-    formatOptions: {
-      format: 'png',
-      options: { quality: 75 },
-    },
     mimeTypes: ['image/*'],
-
-    imageSizes: [
-      {
-        name: 'webp',
-        formatOptions: { format: 'webp', options: { quality: 70 } },
-      },
-    ],
   },
 
   fields: [
